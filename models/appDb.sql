@@ -6,3 +6,5 @@ CREATE TABLE todos(
     completed BOOLEAN DEFAULT false,
     PRIMARY KEY(id)
 );
+INSERT INTO todos (text)
+VALUES ("Wash Dishes"),("Hegmone"),("Wash Dishes");
